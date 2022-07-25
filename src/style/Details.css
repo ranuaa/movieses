@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.banner-atas {
+    background-color: transparent;
+    margin: 0;
+    height: 100vh;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    opacity: 0.7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bungkus-konten {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 90%;
+
+}
+
+.gambar {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi-gambar {
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px;
+    height: 90%;
+}
+
+.details {
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi-detail {
+    width: 95%;
+    height: 90%;
+
+}
+.isi-detail h1 {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.p-atas span:not(:first-child) {
+    padding-left: 20px;
+}
+
+.paged {
+    text-align: center;
+    border: 1px solid white;
+    padding: 0;
+}
+
+
+
+.icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icons ul li {
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons ul li:not(:first-child) {
+    border: 1px solid black;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.extras ul {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.extras ul li {
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+}

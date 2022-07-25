@@ -1,0 +1,36 @@
+.Navnav {
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%) !important;
+    color: white !important;
+}
+
+.Tombol {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.arahan,
+.harusnya-gambar {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.me-2 {
+    opacity: .5 !important;
+}
+
+.me-2:focus {
+    opacity: 1 !important;
+}
+
+.toommbooll {
+    color:  white !important;
+    font-weight: bold !important;
+    width: 100%;
+    height: 100%;
+}
+
+.Tombol:hover{
+    background-color: yellowgreen !important;
+    border-radius: 1px solid white !important;
+    color: black !important;
+}
